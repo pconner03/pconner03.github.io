@@ -5,7 +5,7 @@
 		/* http://angular-ui.github.io/bootstrap/#/getting_started */
 	</style>
   <head>
-  	<title>Patrick Conner</title>
+  	<title>R&#x00E9sum&#x00E9</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.js"></script>
     <script src="libs/ui-bootstrap-tpls-0.11.0.min.js"></script>
@@ -17,12 +17,8 @@
   <body>
 
 
-    <div id="IndexHeader" ng-controller="Header" class="container">
-  		<h1>{{title}}</h1>
-  		<p class="lead">{{subtitle}}</p>
-			<dl class="dl-horizontal" >		
-  			<lt ng-repeat="link in links" class="btn btn-default"><a href={{link.link}}>{{link.text}}</a></li>
-  			</dl>	
+    <div ng-controller="Resume" class="container">
+  		<h1>{{title}}</h1>	
   	</div>
 
   	
