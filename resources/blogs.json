@@ -1,0 +1,9 @@
+[
+{
+	"title": "Test Blog Post",
+	"author":"Patrick Conner",
+	"date": "06/10/2014",
+	"content":"# Hello\n\nThis is a test blog post. It is stored locally, but in JSON format, mimicking a webservice. It can be rendered in *markdown*"
+
+}
+]
